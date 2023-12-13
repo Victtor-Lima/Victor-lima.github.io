@@ -1,0 +1,81 @@
+.experiencia {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 100px;
+  align-items: center;
+  max-width: 1200px;
+  margin-bottom: 60px;
+}
+
+.titulo-experiencia {
+  font-size: 9rem;
+  line-height: 1.1;
+  text-transform: uppercase;
+  word-break: break-all;
+  color: #dbdbdb;
+  max-width: 600px;
+  margin-left: 40px;
+}
+
+.lista-experiencia {
+  padding-top: 90px;
+}
+
+.texto-experiencia {
+  font-size: 1.5rem;
+  line-height: 1.33;
+  margin-bottom: 60px;
+  max-width: 40ch;
+  color: #525252;
+}
+
+.texto-experiencia strong {
+  color: #000;
+}
+
+
+.item-lista-experiencia {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 20px;
+  gap: 20px 30px;
+  margin-bottom: 20px;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+  position: relative;
+  margin-right: 40px;
+}
+
+.ano-item {
+  position: absolute;
+  top: 20px;
+  left: -60px;
+}
+
+.titulo-item {
+  font-size: 1.125rem;
+  line-height: 1.1;
+  font-weight: bold;
+}
+
+.texto-item {
+  font-size: 0.875rem;
+  color: #525252;
+  line-height: 1.4;
+}
+
+.habilidades-item {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-content: start;
+  list-style: none;
+}
+
+.habilidades-item li {
+  font-size: 0.875rem;
+  line-height: 1.4;
+  border-radius: 4px;
+  background-color: #F5E3FF;
+  padding: 5px 10px;
+}

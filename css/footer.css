@@ -1,0 +1,22 @@
+.rodape {
+  max-width: 1200px;
+  display: grid;
+  gap: 100px;
+  grid-template-columns: 1fr 1fr;
+  background-color: #000;
+}
+
+.text-rodape {
+  color: #c9c9c9;
+  font-size: 1.25rem;
+  letter-spacing: 0.36px;
+  padding: 80px 70px 150px;
+}
+.infor-rodape {
+  display: grid;
+  gap: 20px;
+  color: #fff;
+  font-size: 1.5rem;
+  padding: 80px 70px 150px;
+}
+

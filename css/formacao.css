@@ -1,0 +1,64 @@
+.formacao {
+  background-color: #191919;
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 100px;
+}
+
+.titulo-formacao {
+  font-size: 8rem;
+  line-height: 1;
+  text-transform: uppercase;
+  word-break: break-all;
+  color: #000;
+  margin-left: 40px;
+  margin-top: 45px;
+}
+
+.formacao-conteudo {
+  margin-right: 40px;
+}
+
+.texto-formacao {
+  font-size: 1.5rem;
+  color: #999898;
+  margin-top: 60px;
+}
+
+.texto-formacao strong {
+  color: #f7f7f7;
+}
+
+.cursos-lista {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px 20px;
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+
+.curso-container {
+  max-width: 200px;
+  max-height: 190px;
+  background-color: #090909;
+  padding: 20px;
+}
+
+.curso-tipo {
+  font-size: 0.875;
+  color: #737373;
+  margin-bottom: 10px;
+}
+
+.curso {
+  font-size: 1.125rem;
+  color: #f7f7f7;
+  margin-bottom: 70px;
+}
+
+.plataforma-curso {
+  font-size: 1rem;
+  color: #737373;
+  text-transform: uppercase;
+}
